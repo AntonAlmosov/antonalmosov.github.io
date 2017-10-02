@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+::-webkit-scrollbar { 
+    display: none; 
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11pt;
+    font-weight: 400;
+    color: #292929;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+}
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20pt;
+    font-weight: 700;
+    color: #292929;
+}
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12pt;
+    font-weight: 700;
+    color: #292929;
+}
+
+.main{
+    width: 1020px;
+    height: 500px;
+}
+
+/*Menu Screen*/
+.mapScreen{
+    position: relative;
+}
+.menuScreen{
+    position: relative;
+}
+.menuOpened{
+    height: 100%;
+    width: 230px;
+    background-color: rgba(244,244,244, 1);
+    overflow: auto;
+}
+.authorTab{
+    width: 210px;
+    height: 95px;
+    border: 4px solid white;
+    margin-left: 6px;
+    margin-top: 10px;
+    }
+.authorTab img{
+    margin: 7px 5px;
+    float: left;
+    }
+.authorTab h2{
+    margin-left: 7px;
+    text-align: center;
+}
+.closeBar{
+    height: 100%;
+    width: 36px;
+    background-color: rgba(244,244,244, 1);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.closeBar img{
+    width: 27px;
+    height: 27px;
+    margin: 10px 0px 0px 5px;
+}
+
+/*Author Screen*/
+.authorScreen{
+    position: relative;
+    display: none;
+}
+.menuBar{
+    height: 100%;
+    width: 36px;
+    background-color: rgba(244,244,244, 1);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.menuBar img{
+    width: 27px;
+    height: 27px;
+    margin: 10px 0px 0px 5px;
+}
+.authorDescr {
+    height: 100%;
+    width: 230px;
+    background-color: rgba(244,244,244, 1);
+    overflow: auto;
+    z-index: -1;
+}
+.authorDescr h1{
+    width: 230px;
+    margin-top: 10px;
+    text-align: center;
+    position: relative;
+}
+#authorMap{
+    width: 754px;
+    height: 500px;
+    margin-left: 230px;
+    position: fixed;
+    z-index: 1;
+}
+.placeHolder{
+    text-align: center;
+    width: 754px;
+    height: 500px;
+    margin-left: 230px;
+    position: fixed;
+    background-color: rgba(244,244,244, 1);
+}
+.Kuprin{
+    display: none;
+    }
+.Gogol{
+    display: none;
+}
+.Goncharov{
+    display: none;
+}
+.Dostoevski{
+    display: none;
+}
+.Karamzin{
+    display: none;
+}
+.Lomonosov{
+    display: none;
+}
+.Tolstoy{
+    display: none;
+}
+.Turgenev{
+    display: none;
+}
+.Tutchev{
+    display: none;
+}
+/*
+#Kuprin{
+    display: none;
+}
+#Gogol{
+    display: none;
+}
+#Goncharov{
+    display: none;
+}
+#Dostoevski{
+    display: none;
+}
+#Karamzin{
+    display: none;
+}
+#Lomonosov{
+    display: none;
+}
+#Tolstoy{
+    display: none;
+}
+#Turgenev{
+    display: none;
+}
+#Tutchev{
+    display: none;
+}
+*/

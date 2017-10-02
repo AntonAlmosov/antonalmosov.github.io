@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'FugueMono';
+  src: url('FugueMono.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'FugueRegular';
+  src: url('FugueRegular.woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  min-width: 1000px;
+}
+.wrapper{
+  display: flex;
+  height: 640px;
+  width: 50%;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+}
+p{
+  font-family: 'FugueRegular';
+  display: table-cell;;
+  font-size: 43px;
+  line-height: 46px;
+  padding: 46px 42px 53px;
+  min-width: 343px;
+  text-align: center;
+}
+.img1{
+  background-image: url(img1.jpg);
+}
+.img2{
+  background-image: url(img2.jpg);
+}
+.redbg{
+  background-color: red;
+}
+.white{
+  color: white;
+}
+.whitebg{
+  background-color: white;
+}
+.red{
+  color: red;
+}
+.whitebgh:hover{
+  background-color: white;
+}
+.redh:hover{
+  color: red;
+}
+.redbgh:hover{
+  background-color: red;
+}
+.whiteh:hover{
+  color: white;
+}

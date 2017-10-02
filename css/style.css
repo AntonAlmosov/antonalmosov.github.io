@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Barcode+39+Text|Slabo+27px');
+.header{
+font-size: 35pt;
+font-family: 'Libre Barcode 39 Text';
+position: relative;
+}
+.menu{
+  margin-bottom: 0px;
+}
+.menu a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Slabo 27px';
+  font-size: 15pt;
+  margin-right: 10pt;
+}
+.menu a:hover{
+  color:#A5A5A5;
+  text-decoration: underline;
+}
+.bio{
+  margin-top: 50px;
+}
+.bio h1{
+  font-family: 'Slabo 27px';
+  font-size: 32pt;
+}
+.bio p{
+  font-family: 'Slabo 27px';
+  font-size: 12pt;
+  padding-right: 5%
+}
+.footer{
+  margin-top: 10%;
+}
+.footer p{
+  font-family: 'Slabo 27px';
+  font-size: 9pt;
+  float:right;
+  position: absolute;
+  bottom:0;
+}
+.portfolio{
+  margin-top: 50px;
+}
+.image-block{
+  height: 30%;
+  background-color: #A5A5A5;
+}
+.seaFight{
+   background-image: url("../img/sea1.png");
+   background-size: cover;
+   background-position: center;ß
+}
+.links{
+  margin-top: 150px;
+  margin-bottom: 200px;
+}
+.links a{
+  margin-left: 50px;
+  text-decoration: none;
+  color: black;
+  font-family: 'Slabo 27px';
+  font-size: 20pt;
+}
