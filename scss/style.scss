@@ -31,6 +31,7 @@ header{
     font-family: 'PT Sans Caption';
     font-size: 80px;
     color: black;
+    font-weight: 700;
   }
   h2{
     font-family: 'PT Sans Caption';
@@ -61,7 +62,7 @@ header{
       margin-bottom: 200px;
       h1{
         font-family: 'PT Sans';
-        font-size: 60px;
+        font-size: 70px;
         transition: 0.5s all ease-out;
       }
       h2{
@@ -69,21 +70,72 @@ header{
         font-family: 'PT Sans';
         font-size: 20px;
         transition: 0.5s all ease-out;
-        margin-top: 30px;
+        margin-top: 10px;
       }
       .workImage{
         margin-top: 50px;
         height: 600px;
       }
       &:hover{
-        text-decoration: line-through;
+        text-decoration: underline;
         transition: 0.5s all ease-out;
       }
     }
   }
 }
 
+.backButton{
+  position: fixed;
+  padding: 100px 0 0 130px;;
+  width: 150px;
+  height: 100vh;
+    font-family: 'PT Sans';
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.5s all ease-out;
+    color: black;
+    &:hover{
+      text-decoration: underline;
+    }
+}
 
+.porfolio{
+  padding: 100px 0 0 300px;
+  h1{
+    font-family: 'PT Sans Caption';
+    font-size: 70px;
+  }
+  h2{
+    text-decoration: none;
+    font-family: 'PT Sans';
+    font-size: 30px;
+    transition: 0.5s all ease-out;
+    margin-top: 10px;
+  }
+  p{
+    font-family: 'PT Sans';
+    font-size: 20px;
+    margin-top: 50px;
+    width: 700px;
+    a{
+      color: black;
+      font-weight: 700;
+    }
+  }
+  .portfolioSlider{
+    margin-top: 100px;
+    img{
+      display: block;
+      margin-top: 50px;
+      width: 960px;
+    }
+  }
+}
+
+#mobile{
+  margin-left: 260px;
+  width: 400px;
+}
 #tourON{
   width: 700px;
   background-image: url(../img/touron.png);

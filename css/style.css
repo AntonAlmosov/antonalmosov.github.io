@@ -81,7 +81,8 @@ header {
   header h1 {
     font-family: 'PT Sans Caption';
     font-size: 80px;
-    color: black; }
+    color: black;
+    font-weight: 700; }
   header h2 {
     font-family: 'PT Sans Caption';
     font-size: 20px;
@@ -109,7 +110,7 @@ header {
       margin-bottom: 200px; }
       .works a .work h1 {
         font-family: 'PT Sans';
-        font-size: 60px;
+        font-size: 70px;
         -webkit-transition: 0.5s all ease-out;
         -o-transition: 0.5s all ease-out;
         transition: 0.5s all ease-out; }
@@ -120,15 +121,62 @@ header {
         -webkit-transition: 0.5s all ease-out;
         -o-transition: 0.5s all ease-out;
         transition: 0.5s all ease-out;
-        margin-top: 30px; }
+        margin-top: 10px; }
       .works a .work .workImage {
         margin-top: 50px;
         height: 600px; }
       .works a .work:hover {
-        text-decoration: line-through;
+        text-decoration: underline;
         -webkit-transition: 0.5s all ease-out;
         -o-transition: 0.5s all ease-out;
         transition: 0.5s all ease-out; }
+
+.backButton {
+  position: fixed;
+  padding: 100px 0 0 130px;
+  width: 150px;
+  height: 100vh;
+  font-family: 'PT Sans';
+  font-size: 20px;
+  text-decoration: none;
+  -webkit-transition: 0.5s all ease-out;
+  -o-transition: 0.5s all ease-out;
+  transition: 0.5s all ease-out;
+  color: black; }
+  .backButton:hover {
+    text-decoration: underline; }
+
+.porfolio {
+  padding: 100px 0 0 300px; }
+  .porfolio h1 {
+    font-family: 'PT Sans Caption';
+    font-size: 70px; }
+  .porfolio h2 {
+    text-decoration: none;
+    font-family: 'PT Sans';
+    font-size: 30px;
+    -webkit-transition: 0.5s all ease-out;
+    -o-transition: 0.5s all ease-out;
+    transition: 0.5s all ease-out;
+    margin-top: 10px; }
+  .porfolio p {
+    font-family: 'PT Sans';
+    font-size: 20px;
+    margin-top: 50px;
+    width: 700px; }
+    .porfolio p a {
+      color: black;
+      font-weight: 700; }
+  .porfolio .portfolioSlider {
+    margin-top: 100px; }
+    .porfolio .portfolioSlider img {
+      display: block;
+      margin-top: 50px;
+      width: 960px; }
+
+#mobile {
+  margin-left: 260px;
+  width: 400px; }
 
 #tourON {
   width: 700px;
