@@ -1,7 +1,12 @@
 @import "reset";
 @import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Caption&subset=cyrillic');
 
+.cube{
+  position: absolute;
+}
+
 body{
+  background-color: black;
   min-width: 960px;
   overflow-x: hidden;
 }

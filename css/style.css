@@ -52,7 +52,11 @@ textarea:focus,
 button:focus {
   outline: none; }
 
+.cube {
+  position: absolute; }
+
 body {
+  background-color: black;
   min-width: 960px;
   overflow-x: hidden; }
 
