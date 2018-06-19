@@ -1,0 +1,237 @@
+body {
+  min-width: 1440px;
+  max-width: 100vw;
+  overflow-x: hidden; }
+
+.wrapper {
+  width: 1047px;
+  margin: 0 auto; }
+
+header {
+  margin-top: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  header .links a {
+    margin-right: 75px;
+    color: black;
+    font-family: "PT Mono";
+    font-size: 25px; }
+    header .links a:hover {
+      text-decoration: none; }
+  header .logo {
+    background-image: url(../img/logo.svg);
+    width: 83px;
+    height: 25px; }
+
+.intro {
+  width: 100%;
+  position: relative;
+  margin-top: 218px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .intro .introHeading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "PT Mono";
+    font-size: 60px; }
+    .intro .introHeading .rechtangleBig {
+      margin-top: 6px;
+      margin-left: 10px;
+      width: 25px;
+      height: 54px;
+      background-color: black; }
+  .intro .introText {
+    position: relative;
+    width: 621px;
+    margin-top: 60px; }
+    .intro .introText p {
+      font-family: "PT Mono";
+      font-size: 20px;
+      margin-top: 20px; }
+    .intro .introText input {
+      margin-top: 15px;
+      width: 600px;
+      height: 60px;
+      background-color: rgba(208, 208, 208, 0.32);
+      outline: none;
+      border: 0px;
+      color: black;
+      font-size: 20px;
+      font-family: "PT Mono";
+      padding-left: 20px; }
+    .intro .introText .introLink {
+      font-family: "PT Mono";
+      font-size: 20px;
+      margin-top: 32px; }
+      .intro .introText .introLink a {
+        color: black; }
+        .intro .introText .introLink a:hover {
+          text-decoration: none; }
+  .intro .introImage {
+    position: absolute;
+    z-index: -1;
+    right: -100px;
+    top: -100px; }
+    .intro .introImage img {
+      width: 800px; }
+
+.inBetweenText {
+  width: 621px;
+  margin-top: 384px; }
+  .inBetweenText p {
+    font-family: "PT Mono";
+    font-size: 20px; }
+
+.standart {
+  margin-top: 320px;
+  position: relative;
+  width: 1041px; }
+  .standart .standartHeading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "PT Mono";
+    font-size: 30px; }
+    .standart .standartHeading .rechtangleSmall {
+      margin-top: 1px;
+      margin-left: 5px;
+      width: 16px;
+      height: 35px;
+      background-color: black; }
+  .standart .standartText {
+    width: 621px;
+    margin-top: 66px; }
+    .standart .standartText p {
+      margin-top: 10px;
+      font-family: "PT Mono";
+      font-size: 20px; }
+  .standart .standartLink {
+    margin-top: 103px;
+    font-family: "PT Mono";
+    font-size: 20px;
+    margin-top: 32px; }
+    .standart .standartLink a {
+      color: black; }
+      .standart .standartLink a:hover {
+        text-decoration: none; }
+  .standart .standartImage {
+    position: absolute;
+    z-index: -1;
+    right: -100px;
+    top: -140px; }
+    .standart .standartImage #second {
+      width: 900px; }
+    .standart .standartImage #fourth {
+      width: 800px; }
+
+.courses {
+  margin-top: 400px;
+  position: relative; }
+  .courses .coursesHeading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "PT Mono";
+    font-size: 30px; }
+    .courses .coursesHeading .rechtangleSmall {
+      margin-top: 1px;
+      margin-left: 5px;
+      width: 16px;
+      height: 35px;
+      background-color: black; }
+  .courses .coursesCardGroup {
+    margin-top: 134px;
+    height: 484px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    .courses .coursesCardGroup .coursesCard {
+      width: 815px;
+      height: 140px;
+      background-color: rgba(208, 208, 208, 0.16);
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .courses .coursesCardGroup .coursesCard h1 {
+        font-size: 30px;
+        font-family: "PT Mono";
+        font-weight: normal;
+        line-height: 46px;
+        margin-left: 50px; }
+      .courses .coursesCardGroup .coursesCard p {
+        margin-top: 36px;
+        width: 311px;
+        margin-left: 100px;
+        font-size: 16px;
+        font-family: "PT Mono";
+        line-height: 23px; }
+  .courses .coursesText {
+    width: 621px;
+    margin-top: 88px; }
+    .courses .coursesText p {
+      margin-top: 10px;
+      font-family: "PT Mono";
+      font-size: 20px; }
+  .courses .coursesImage {
+    position: absolute;
+    z-index: -1;
+    right: -100px;
+    top: 100px; }
+    .courses .coursesImage img {
+      width: 700px; }
+
+.signupForm {
+  margin-top: 247px; }
+  .signupForm h1 {
+    font-size: 30px;
+    font-family: "PT Mono";
+    font-weight: 400; }
+  .signupForm p {
+    width: 621px;
+    margin-top: 37px;
+    font-size: 20px;
+    font-family: "PT Mono"; }
+  .signupForm input {
+    margin-top: 15px;
+    width: 600px;
+    height: 60px;
+    background-color: rgba(208, 208, 208, 0.32);
+    outline: none;
+    border: 0px;
+    color: black;
+    font-size: 20px;
+    font-family: "PT Mono";
+    padding-left: 20px; }
+  .signupForm .signupFormLink {
+    font-family: "PT Mono";
+    font-size: 20px;
+    margin-top: 32px; }
+    .signupForm .signupFormLink a {
+      color: black; }
+      .signupForm .signupFormLink a:hover {
+        text-decoration: none; }
+
+footer {
+  margin-top: 152px;
+  margin-bottom: 150px; }
+  footer p {
+    margin-bottom: 13px;
+    font-size: 16px;
+    font-family: "PT Mono"; }
