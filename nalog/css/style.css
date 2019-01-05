@@ -466,9 +466,10 @@ table {
       font-size: 0.9em;
       font-weight: 700;
       line-height: 1.2em;
-      text-align: center; }
+      text-align: center;
+      text-transform: uppercase; }
     .adressAndInfo p:first-of-type {
-      width: 150px; }
+      width: 260px; }
     .adressAndInfo p:last-of-type {
       display: none; } }
 
