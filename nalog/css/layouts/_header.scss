@@ -16,7 +16,6 @@
         justify-content: space-between;
         width: 400px;
         a{
-          opacity: 0.5;
           height: 20px;
           font-size: 1em;
           display: inline;
@@ -24,8 +23,8 @@
           text-decoration: none;
           padding: 0 10px 10px 10px;
           &:hover{
-            transition: 0.4s all;
-            transform: rotate(45deg);
+            transition: 0.1s all;
+            border-bottom: 2px solid black;
           }
           &.active{
             opacity: 1;
@@ -44,7 +43,6 @@
           display: flex;
           justify-content: space-between;
           a{
-            opacity: 0.5;
             height: 20px;
             font-size: 1em;
             display: inline;
@@ -52,8 +50,8 @@
             text-decoration: none;
             padding: 0 10px 10px 10px;
             &:hover{
-              transition: 0.4s all;
-              transform: rotate(45deg);
+              transition: 0.1s all;
+              border-bottom: 2px solid black;
             }
             &.active{
               opacity: 1;
@@ -74,8 +72,8 @@
             text-decoration: none;
             padding: 5px 10px 0px 10px;
             &:hover{
-              transition: 0.4s all;
-              transform: rotate(-25deg);
+              transition: 0.1s all;
+              border-bottom: 2px solid black;
             }
           }
         }
@@ -113,7 +111,6 @@
         justify-content: space-between;
         width: 350px;
         a{
-          opacity: 0.5;
           height: 12px;
           font-size: 0.9em;
           display: inline;
@@ -121,8 +118,8 @@
           text-decoration: none;
           padding: 0 10px 10px 10px;
           &:hover{
-            transition: 0.4s all;
-            transform: rotate(45deg);
+            transition: 0.1s all;
+            border-bottom: 2px solid black;
           }
           &.active{
             opacity: 1;
@@ -149,8 +146,8 @@
             text-decoration: none;
             padding: 0 10px 10px 10px;
             &:hover{
-              transition: 0.4s all;
-              transform: rotate(45deg);
+              transition: 0.1s all;
+              border-bottom: 2px solid black;
             }
             &.active{
               opacity: 1;
@@ -172,8 +169,8 @@
             text-decoration: none;
             padding: 5px 10px 0px 10px;
             &:hover{
-              transition: 0.4s all;
-              transform: rotate(-25deg);
+              transition: 0.1s all;
+              border-bottom: 2px solid black;
             }
           }
         }
@@ -221,8 +218,8 @@
           text-decoration: none;
           font-size: 0.8em;
           &:hover{
-            transition: 0.4s all;
-            transform: rotate(360deg);
+            transition: 0.1s all;
+            border-bottom: 2px solid black;
           }
           &.active{
             border-bottom: 1px solid black;
@@ -245,8 +242,8 @@
             text-decoration: none;
             font-size: 0.8em;
             &:hover{
-              transition: 0.4s all;
-              transform: rotate(360deg);
+              transition: 0.1s all;
+              border-bottom: 2px solid black;
             }
             &.active{
               border-bottom: 1px solid black;

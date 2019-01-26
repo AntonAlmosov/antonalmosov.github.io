@@ -73,7 +73,6 @@ table {
         justify-content: space-between;
         width: 400px; }
         .header .headerBlock .menu a {
-          opacity: 0.5;
           height: 20px;
           font-size: 1em;
           display: inline;
@@ -81,12 +80,10 @@ table {
           text-decoration: none;
           padding: 0 10px 10px 10px; }
           .header .headerBlock .menu a:hover {
-            -webkit-transition: 0.4s all;
-            -o-transition: 0.4s all;
-            transition: 0.4s all;
-            -webkit-transform: rotate(45deg);
-            -ms-transform: rotate(45deg);
-            transform: rotate(45deg); }
+            -webkit-transition: 0.1s all;
+            -o-transition: 0.1s all;
+            transition: 0.1s all;
+            border-bottom: 2px solid black; }
           .header .headerBlock .menu a.active {
             opacity: 1;
             font-weight: 700; }
@@ -112,7 +109,6 @@ table {
           -ms-flex-pack: justify;
           justify-content: space-between; }
           .header .headerBlock .menuComplex .menuNavigation a {
-            opacity: 0.5;
             height: 20px;
             font-size: 1em;
             display: inline;
@@ -120,12 +116,10 @@ table {
             text-decoration: none;
             padding: 0 10px 10px 10px; }
             .header .headerBlock .menuComplex .menuNavigation a:hover {
-              -webkit-transition: 0.4s all;
-              -o-transition: 0.4s all;
-              transition: 0.4s all;
-              -webkit-transform: rotate(45deg);
-              -ms-transform: rotate(45deg);
-              transform: rotate(45deg); }
+              -webkit-transition: 0.1s all;
+              -o-transition: 0.1s all;
+              transition: 0.1s all;
+              border-bottom: 2px solid black; }
             .header .headerBlock .menuComplex .menuNavigation a.active {
               opacity: 1;
               font-weight: 700; }
@@ -146,12 +140,10 @@ table {
             text-decoration: none;
             padding: 5px 10px 0px 10px; }
             .header .headerBlock .menuComplex .menuAnchors a:hover {
-              -webkit-transition: 0.4s all;
-              -o-transition: 0.4s all;
-              transition: 0.4s all;
-              -webkit-transform: rotate(-25deg);
-              -ms-transform: rotate(-25deg);
-              transform: rotate(-25deg); }
+              -webkit-transition: 0.1s all;
+              -o-transition: 0.1s all;
+              transition: 0.1s all;
+              border-bottom: 2px solid black; }
         .header .headerBlock .menuComplex .menuAnchorsMobile {
           display: none; }
     .header .phone {
@@ -187,7 +179,6 @@ table {
         justify-content: space-between;
         width: 350px; }
         .header .headerBlock .menu a {
-          opacity: 0.5;
           height: 12px;
           font-size: 0.9em;
           display: inline;
@@ -195,12 +186,10 @@ table {
           text-decoration: none;
           padding: 0 10px 10px 10px; }
           .header .headerBlock .menu a:hover {
-            -webkit-transition: 0.4s all;
-            -o-transition: 0.4s all;
-            transition: 0.4s all;
-            -webkit-transform: rotate(45deg);
-            -ms-transform: rotate(45deg);
-            transform: rotate(45deg); }
+            -webkit-transition: 0.1s all;
+            -o-transition: 0.1s all;
+            transition: 0.1s all;
+            border-bottom: 2px solid black; }
           .header .headerBlock .menu a.active {
             opacity: 1;
             font-weight: 700; }
@@ -234,12 +223,10 @@ table {
             text-decoration: none;
             padding: 0 10px 10px 10px; }
             .header .headerBlock .menuComplex .menuNavigation a:hover {
-              -webkit-transition: 0.4s all;
-              -o-transition: 0.4s all;
-              transition: 0.4s all;
-              -webkit-transform: rotate(45deg);
-              -ms-transform: rotate(45deg);
-              transform: rotate(45deg); }
+              -webkit-transition: 0.1s all;
+              -o-transition: 0.1s all;
+              transition: 0.1s all;
+              border-bottom: 2px solid black; }
             .header .headerBlock .menuComplex .menuNavigation a.active {
               opacity: 1;
               font-weight: 700; }
@@ -263,12 +250,10 @@ table {
             text-decoration: none;
             padding: 5px 10px 0px 10px; }
             .header .headerBlock .menuComplex .menuAnchors a:hover {
-              -webkit-transition: 0.4s all;
-              -o-transition: 0.4s all;
-              transition: 0.4s all;
-              -webkit-transform: rotate(-25deg);
-              -ms-transform: rotate(-25deg);
-              transform: rotate(-25deg); }
+              -webkit-transition: 0.1s all;
+              -o-transition: 0.1s all;
+              transition: 0.1s all;
+              border-bottom: 2px solid black; }
         .header .headerBlock .menuComplex .menuAnchorsMobile {
           display: none; }
     .header .phone {
@@ -314,12 +299,10 @@ table {
           text-decoration: none;
           font-size: 0.8em; }
           .header .headerBlock .menu a:hover {
-            -webkit-transition: 0.4s all;
-            -o-transition: 0.4s all;
-            transition: 0.4s all;
-            -webkit-transform: rotate(360deg);
-            -ms-transform: rotate(360deg);
-            transform: rotate(360deg); }
+            -webkit-transition: 0.1s all;
+            -o-transition: 0.1s all;
+            transition: 0.1s all;
+            border-bottom: 2px solid black; }
           .header .headerBlock .menu a.active {
             border-bottom: 1px solid black;
             line-height: 1.1em; }
@@ -351,12 +334,10 @@ table {
             text-decoration: none;
             font-size: 0.8em; }
             .header .headerBlock .menuComplex .menuNavigation a:hover {
-              -webkit-transition: 0.4s all;
-              -o-transition: 0.4s all;
-              transition: 0.4s all;
-              -webkit-transform: rotate(360deg);
-              -ms-transform: rotate(360deg);
-              transform: rotate(360deg); }
+              -webkit-transition: 0.1s all;
+              -o-transition: 0.1s all;
+              transition: 0.1s all;
+              border-bottom: 2px solid black; }
             .header .headerBlock .menuComplex .menuNavigation a.active {
               border-bottom: 1px solid black;
               line-height: 1.1em; }
