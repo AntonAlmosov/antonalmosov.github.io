@@ -68,6 +68,77 @@
   }
 }
 
+@media (min-width: 415px) and (max-width: 1024px){
+  .servicesWrapper{
+    margin: calc(80px - 25px) auto 0 auto;
+    font-family: $font;
+    .serviceBlock{
+      width: 97%;
+      margin: 0 auto;
+      display: flex;
+      .serviceName{
+        font-size: 17px;
+        width: 15%;
+        height: 35px;
+        border-bottom: 1px solid black;
+        margin-right: 32px;
+      }
+      .services{
+        width: calc(100% - 15% - 32px);
+        display: flex;
+        flex-flow: column;
+        .service{
+          width: 28.15%;
+        }
+        .time{
+          width: 19.52%;
+        }
+        .price{
+          width: 17%;
+        }
+        .documents{
+          width: calc(100% - 28.15% - 19.52% - 17% - 80px);
+          text-align: right;
+          display: flex;
+          justify-content: center;
+          a{
+            display: block;
+            width: 34px;
+            height: 20px;
+            background-image: url(../img/download.svg);
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+        }
+        .servicesRowHeader{
+          box-sizing: border-box;
+          width: 100%;
+          font-weight: 700;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0 15px 19px 20px;
+          border-bottom: 1px solid black;
+          text-transform: uppercase;
+        }
+        .servicesRow{
+          box-sizing: border-box;
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          padding: 25px 10px 20px 20px;
+          border-bottom: 1px solid black;
+          text-transform: uppercase;
+        }
+      }
+    }
+    .notTheFirst{
+      margin-top: 30px;
+    }
+  }
+}
+
+
 @media (max-width: 414px) {
 
   .servicesWrapper{

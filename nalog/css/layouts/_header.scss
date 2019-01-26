@@ -95,6 +95,105 @@
   }
 }
 
+@media (min-width: 415px) and (max-width: 1024px){
+    .header{
+    margin: 20px auto 0 auto;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    font-family: $font;
+    .headerBlock{
+      display: flex;
+      img{
+        width: 150px;
+      }
+      .menu{
+        margin-left: 20px;
+        display: flex;
+        justify-content: space-between;
+        width: 350px;
+        a{
+          opacity: 0.5;
+          height: 12px;
+          font-size: 0.9em;
+          display: inline;
+          color: black;
+          text-decoration: none;
+          padding: 0 10px 10px 10px;
+          &:hover{
+            transition: 0.4s all;
+            transform: rotate(45deg);
+          }
+          &.active{
+            opacity: 1;
+            font-weight: 700;
+          }
+        }
+      }
+      .menuComplex{
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        width: 350px;
+        margin-left: 20px;
+        .menuNavigation{
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          a{
+            opacity: 0.5;
+            height: 12px;
+            font-size: 0.9em;
+            display: inline;
+            color: black;
+            text-decoration: none;
+            padding: 0 10px 10px 10px;
+            &:hover{
+              transition: 0.4s all;
+              transform: rotate(45deg);
+            }
+            &.active{
+              opacity: 1;
+              font-weight: 700;
+            }
+          }
+        }
+        .menuAnchors{
+          width: 95%;
+          display: flex;
+          justify-content: space-between;
+          transform: translateY(-3px);
+          a{
+            opacity: 1;
+            height: 12px;
+            font-size: 0.9em;
+            display: inline;
+            color: black;
+            text-decoration: none;
+            padding: 5px 10px 0px 10px;
+            &:hover{
+              transition: 0.4s all;
+              transform: rotate(-25deg);
+            }
+          }
+        }
+        .menuAnchorsMobile{
+          display: none;
+        }
+      }
+    }
+    .phone{
+      margin-right: 10px;
+      font-size: 1em;
+      line-height: 1.5em;
+      span{
+        font-weight: 700;
+      }
+    }
+
+  }
+}
+
 @media (max-width: 414px){
   .header{
     padding: 17px 0 0 0;

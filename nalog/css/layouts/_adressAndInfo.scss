@@ -5,8 +5,9 @@
     display: flex;
     justify-content: space-between;
     position: absolute;
-    bottom: 31px;
+    bottom: 60px;
     p{
+      text-transform: uppercase;
       font-family: $font;
       font-size: 1em;
       font-weight: 700;
@@ -29,8 +30,9 @@
     display: flex;
     justify-content: space-between;
     position: absolute;
-    bottom: 31px;
+    bottom: 60px;
     p{
+      text-transform: uppercase;
       font-family: $font;
       font-size: 1em;
       font-weight: 700;
@@ -52,8 +54,9 @@
     display: flex;
     justify-content: center;
     position: absolute;
-    bottom: 10px;
+    bottom: 20px;
     p{
+      text-transform: uppercase;
       font-family: $font;
       font-size: 0.9em;
       font-weight: 700;

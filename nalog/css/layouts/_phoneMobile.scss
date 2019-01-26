@@ -4,6 +4,12 @@
   }
 }
 
+@media(min-width: 415px) and (max-width: 1024px){
+  .phoneMobile{
+    display: none;
+  }
+}
+
 @media (max-width: 414px){
   .phoneMobile{
     width: 100vw;
